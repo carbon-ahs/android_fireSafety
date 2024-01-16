@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Fire Safety App</string>
+    <string name="welcome">Welcome in our app. Here you can get fire safety info of your building.</string>
+    <string name="q1">What is your building type?</string>
+    <string-array name="building_type">
+        <item>A: RESIDENTIAL</item>
+        <item>B: EDUCATIONAL</item>
+        <item>C: INSTITUTION FOR CARE</item>
+        <item>D: HEALTH CARE FACILITIES</item>
+        <item>E: BUSINESS</item>
+        <item>F: MERCANTILE</item>
+        <item>G: INDUSTRIAL</item>
+        <item>H: STORAGE</item>
+        <item>I: ASSEMBLY</item>
+        <item>J: HAZARDOUS</item>
+        <item>K: GARAGES</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="residential_types">
+        <item>A1 and A2: Single Family Dwelling and Two Families Dwelling</item>
+        <item>A3: Flats and Apartments</item>
+        <item>A4: Mess, Boarding House and Hostels</item>
+        <item>A5: Hotels and Lodging Houses</item>
+    </string-array>
+
+    <string name="a1">(a) For low rise building fire detection and fixed firefighting arrangements shall not be required.
+(b) High rise buildings exceeding each floor area 500 m2 shall have manual alarm system and portable
+extinguishers provided in the escape stairs route or in fire lift lobby and as per provision of this Code.
+(c) High rise buildings exceeding each floor area 500 m2 shall have manual alarm system and dry or wet riser
+hydrant system per provision of this Code. [Ref. BNBC 2015 page: 4-48]</string>
+
+    <string name="a3">(a) Up to 20 m height fire detection and fixed firefighting arrangement shall not be required.
+(b) No protection required within the dwelling units of flats and apartments high rise buildings manual alarm
+system and fixed hydrant system shall be provided in the landings of fire stairs or in the left lobby as per
+provision of this Code shall be required. [Ref. BNBC 2015 page: 4-48]</string>
+
+
+    <string name="a4">(a) For buildings up to 2 storey height, fire detection, fire alarm and fixed firefighting arrangements shall not be
+required.
+(b) Buildings having 3 stories and having floor area less than 300 m2 shall not require fire detection and fixed
+firefighting arrangements.
+(c) The floor area of 3 stories building having more than 300 m2 per floor and less than 33 m height having central
+corridor with rooms on both sides, manual fire alarm system shall be provided along with portable fire
+extinguishers. Instead of double loaded corridor a single loaded corridor having 3 m width shall not require
+any detection and fixed firefighting arrangements.
+(d) High rise boarding house, mess and hostels manually operated electric fire alarm system shall be provided
+along with hydrant system. [Ref. BNBC 2015 page: 4-48]</string>
+
+    <string name="a5">(a) For buildings up to 2 storey height, fire detection, fire alarm and fixed firefighting arrangements shall not be
+required.
+(b) Buildings having 3 floors or above and having floor area less than 300 m2 shall not require fire detection and
+fixed firefighting arrangements.
+(c) The floor area of such building is more than 300 m2 per floor and low rise building having central corridor with
+rooms on both sides, manually operated fire alarm system shall be provided along with portable fire
+extinguishers.
+(d) High rise hotels and lodging houses manually operated electric fire alarm system shall be provided along with
+hydrant system. [Ref. BNBC 2015 page: 4-48]</string>
+
+    <string-array name="educational_types">
+        <item>B1: Low Rise</item>
+        <item>B2: High Rise</item>
+    </string-array>
+
+    <string-array name="care_types">
+        <item>C1: Institution for Care of Children</item>
+        <item>C2: Custodial Institution for the Physically Capable adults</item>
+        <item>C3: Custodial Institution for the Physically Incapable</item>
+        <item>C4: Penal and mental institutions for children</item>
+        <item>C5: Penal and mental institutions for adults</item>
+    </string-array>
+
+    <string-array name="health_care_types">
+        <item>D1: Normal Medical Facilities</item>
+        <item>D2: Emergency Medical Facilities</item>
+    </string-array>
+
+    <string-array name="business_types">
+        <item>1. Office buildings up to 2 storey high and 500 m2 single effective undivided space in a floor</item>
+        <item>2. Office buildings more than 2 storey high or more than 500 m2 single effective undivided space in a floor.</item>
+        <item>3. Laboratories with precession instruments</item>
+        <item>4. Control areas of office buildings dealing with flammable liquids.</item>
+        <item>5. Solvent storage in a control area of an office</item>
+        <item>6. Telecommunication, Internet gateway equipment or computer installation in an unattended server room.</item>
+        <item>7. Electrical low tension distribution panel room in a sub-station.</item>
+        <item>8. Space under one false ceiling more than 500 m2</item>
+        <item>9. Essential Services</item>
+    </string-array>
+
+    <string-array name="mercantile_types">
+        <item>1. Whole sale establishments, transport booking establishments</item>
+        <item>2. Shopping arcade with central corridors open to sky</item>
+        <item>3. Mercantile building under covered roof with single effective undivided space more than 500 m2 on each floor</item>
+        <item>4. Underground mercantile structure</item>
+        <item>5. Petrol pump and CNG station, automobile garages</item>
+        <item>6. Aircraft hangars</item>
+    </string-array>
+
+    <string-array name="industry_types">
+        <item>G1: Low Hazard Industries</item>
+        <item>G2: Moderate Hazard Industries</item>
+    </string-array>
+
+    <string-array name="storage_types">
+        <item>H1: Low Fire Risk Storage</item>
+        <item>H2: Moderate Fire Risk Storage</item>
+    </string-array>
+
+    <string-array name="assembly_types">
+        <item>I1: Large Assembly with Fixed Seats</item>
+        <item>I2: Small Assembly with Fixed Seats</item>
+        <item>I3: Large Assembly without Fixed Seats</item>
+        <item>I4: Small Assembly without Fixed Seats</item>
+        <item>I5: Sports Facilities</item>
+    </string-array>
+
+    <string name="subtype_req">Please provide appropriate Sub-type.</string>
+    <string name="thanks">Thanks to use our app. Here are your result as BNBC (Bangladesh National Building Code), 2015. </string>
+    <string name="action_settings">Settings</string>
+
+</resources>
